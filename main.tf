@@ -1,3 +1,9 @@
+variable "identity" {default = ""}
+variable "ami" {default = ""}
+variable "subnet_id" {default = ""}
+variable "environment" {default = ""}
+variable "vpc_security_group_ids" {default = ""}
+variable "name" { default = "EC2-default-name"}
 provider "aws" {
 }
 
